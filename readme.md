@@ -24,7 +24,7 @@ The workflow of the proposed BR-MoE.
 
 ## Experiments
 
-### Dataset Preparation
+### 1. Dataset Preparation
 
 #### Long-Task-Sequence CIL Benchmark
 
@@ -42,7 +42,7 @@ The remaining benchmark datasets used in this paper can be obtained from the pro
 
 **NOTE**: Please place all processed datasets under the `dataset/` directory. If you prefer a different storage location, you can modify `data_root` in [utils/data.py](utils/data.py) to customize your dataset save directory.
 
-### Requirements
+### 2. Requirements
 
 We highly suggest using our provided dependencies to ensure reproducibility:
 
@@ -55,7 +55,7 @@ pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorc
 pip install timm==0.6.13
 ```
 
-### Training
+### 3. Training
 
 #### Very Long Task Sequences on OmniBenchmark-1K (100-301 Tasks)
 
@@ -103,7 +103,6 @@ All remaining experimental settings are provided in [scripts](scripts/).
 ## Acknowledgments
 
 - We would like to thank the following repositories for providing valuable components and resources that supported this project:
-
 > [LAMDA-PILOT](https://github.com/LAMDA-CL/LAMDA-PILOT/tree/main)     
 > [APER](https://github.com/LAMDA-CL/RevisitingCIL)
 
