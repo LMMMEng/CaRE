@@ -49,7 +49,7 @@ We highly suggest using our provided dependencies to ensure reproducibility:
 ```bash
 # Environments:
 cuda==12.1
-python==3.12.4
+python==3.10
 # Packages:
 pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu121
 pip install timm==0.6.13
